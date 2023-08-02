@@ -43,7 +43,7 @@ class _HomeScreenState extends State<HomeScreen> {
       length: 4,
       child: Scaffold(
         body: Padding(
-          padding: const EdgeInsets.all(30),
+          padding: const EdgeInsets.symmetric(horizontal: 30, vertical: 20),
           child: GestureDetector(
             onTap: () => FocusScope.of(context).unfocus(),
             child: SingleChildScrollView(

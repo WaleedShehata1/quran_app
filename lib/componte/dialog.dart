@@ -27,7 +27,7 @@ class DefaultDialog extends StatelessWidget {
         child: Dialog(
           insetPadding: const EdgeInsets.only(
             left: 20,
-            right: 180,
+            right: 140,
           ),
           backgroundColor: backgroundColor ?? Colors.white,
           shape: RoundedRectangleBorder(

@@ -26,7 +26,7 @@ class BottomDialog extends StatelessWidget {
         onTap: () => FocusScope.of(context).unfocus(),
         child: Dialog(
           insetPadding:
-              const EdgeInsets.only(left: 0, right: 0, bottom: 0, top: 455),
+              const EdgeInsets.only(left: 0, right: 0, bottom: 0, top: 471),
           backgroundColor: Colors.white,
           shape: RoundedRectangleBorder(
               borderRadius: BorderRadiusDirectional.only(
@@ -55,7 +55,7 @@ class BottomDialog extends StatelessWidget {
                     style: TextStyle(fontSize: 18, color: color1),
                   ),
                   SizedBox(
-                    height: 40,
+                    height: 20,
                   ),
                   Container(
                     padding: EdgeInsetsDirectional.symmetric(
