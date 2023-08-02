@@ -181,19 +181,24 @@ class _SettingScreenState extends State<SettingScreen>
                         SizedBox(
                           height: 15,
                         ),
-                        Container(
-                          alignment: AlignmentDirectional.center,
-                          width: 150,
-                          padding: EdgeInsetsDirectional.all(10),
-                          decoration: BoxDecoration(
-                              borderRadius: BorderRadius.circular(10),
-                              color: Color(0xffDAD0E1)),
-                          child: Text(
-                            ' Make changes',
-                            style: TextStyle(
-                                fontSize: 18,
-                                color: color4,
-                                fontWeight: FontWeight.bold),
+                        Center(
+                          child: InkWell(
+                            onTap: () {},
+                            child: Container(
+                              alignment: AlignmentDirectional.center,
+                              width: 150,
+                              padding: EdgeInsetsDirectional.all(10),
+                              decoration: BoxDecoration(
+                                  borderRadius: BorderRadius.circular(10),
+                                  color: Color(0xffDAD0E1)),
+                              child: Text(
+                                ' Make changes',
+                                style: TextStyle(
+                                    fontSize: 18,
+                                    color: color4,
+                                    fontWeight: FontWeight.bold),
+                              ),
+                            ),
                           ),
                         )
                       ],
